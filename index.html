@@ -1,0 +1,38 @@
+<!-------w------------
+
+    Name: Jashanpreet kaur
+    Date: 13 Oct, 2024
+    Description: This html files includes information about winnipeg election results and uses API to fetch results based on Year and Candidate's name.
+--------------------->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="main.css" />
+    <title>Winnipeg Election Results - AJAX</title>
+</head>
+
+<body>
+    <h1>Winnipeg Election Results</h1>
+    <div class="userInput">
+
+        <label for="Candname">Candidate Name: </label>
+        <input type="text" name="CandidateName" id="Candname" placeholder="Enter the candidate's name" />
+        <br><br>
+        <label for="Year">Year: </label>
+        <input type="text" name="Year" id="Year" placeholder="Enter the election year" />
+        <button onclick="fetchData()">Search</button>
+        
+    </div>
+
+    <div class="resultsContainer" id="results">
+        <!-- results from api url will be displayed here -->
+    </div>
+</body>
+
+</html>
