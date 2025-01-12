@@ -23,7 +23,7 @@ The **Winnipeg Election Results API Viewer** is a client-side web application de
 ## Usage & Installation
 
 1. **Download or Clone** the repository to your local system.
-2. **Open** the `index.html` file in any modern web browser (e.g., Chrome, Firefox).
+2. **Open** the `index.html` file in any modern web browser (e.g., Chrome, Firefox), and make sure to replace API url with your's.
 
 ### How to Use:
 - Enter a *Candidate Name* or *Election Year* (or both) in the input fields.
